@@ -18,13 +18,12 @@ const config = {
         publishableKey: 'pk_test_Z3VpZGVkLWNvdWdhci0yOC5jbGVyay5hY2NvdW50cy5kZXYk',
       },
     },
-    {
+  /* {
       resolve: 'gatsby-source-sanity',
       options: {
         projectId: 'cegk3et9',
         dataset: 'production',
-      },
-    },
+      },*/
   ],
 };
 
