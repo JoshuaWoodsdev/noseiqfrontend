@@ -1,11 +1,23 @@
 // src/pages/about.js
 import React from "react";
 import Layout from "../components/Layout";
-
+import { SignInButton } from "gatsby-plugin-clerk";
+import {
+  SignIn,
+  SignedIn,
+  RedirectToSignIn,
+  SignedOut,
+  UserButton
+  } from 'gatsby-plugin-clerk'
+  
 const AboutPage = () => (
   <Layout>
-    <h1>About Us</h1>
-    {/* Other content specific to the about page */}
+     <SignedIn>
+        <UserButton />
+      </SignedIn>
+      <SignedOut>
+        <RedirectToSignIn />
+      </SignedOut>
   </Layout>
 );
 

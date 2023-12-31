@@ -2,6 +2,7 @@ import React from "react";
 import { SignIn } from "gatsby-plugin-clerk";
 import "tachyons/css/tachyons.min.css"; // Import Tachyons CSS
 
+
 export default function SignInPage() {
   return (
     <div className="mw6 center bg-blue pa3 bg-white br3">
