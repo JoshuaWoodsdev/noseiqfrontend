@@ -5,7 +5,8 @@ import Layout from "../components/Layout";
 
 const IndexPage = () => (
   <Layout>
-   <h1>hi</h1>
+   <h1>The main template area and content </h1>
+   
   </Layout>
 );
 
