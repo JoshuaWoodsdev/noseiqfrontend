@@ -46,12 +46,6 @@ const NavLink = styled(Link)`
 `;
 
 const NavBar = () => {
-  const [isDropdownOpen, setDropdownOpen] = React.useState(false);
-
-  const handleDropdownToggle = () => {
-    setDropdownOpen(!isDropdownOpen);
-  };
-
   return (
     <StyledNavBar>
       <LogoContainer href="#" title="Home">

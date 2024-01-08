@@ -20,3 +20,15 @@ main {
   background-size: cover;
   background-position: center;
 }
+
+.secondmain {
+  min-height: 800px;
+  max-height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 50px;
+  background-size: cover;
+  background-position: center;
+  background-color: blue;
+}

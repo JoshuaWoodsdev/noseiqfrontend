@@ -41,24 +41,7 @@ const ButtonGroup = styled.div`
   align-items: center;
 `;
 
-const Button = styled.a`
-  font-size: 0.875rem;
-  border-radius: 1rem;
-  background-color: #006400; /* Dark green background */
-  color: #f0fff0; /* Washed green text */
-  text-decoration: none;
-  border: 1px solid #006400; /* Dark green border */
-  padding: 0.5rem 1rem;
-  margin-right: 0.75rem;
 
-  &:last-child {
-    margin-right: 0;
-  }
-
-  &:hover {
-    background-color: #008000; /* Lighter green on hover */
-  }
-`;
 
 
 const ChoiceComponent =() =>{

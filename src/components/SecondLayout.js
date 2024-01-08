@@ -18,14 +18,14 @@ import '@fontsource/open-sauce-sans/900.css';
 import Footer from "./navComponents/footer";
 
 
-const Layout = ({ children }) => {
+const SecondLayout = ({ children }) => {
   return (
     <div>
       <NavBar />
-      <main>{children}</main>
+      <div className ="secondmain">{children}</div>
       <Footer/>
     </div>
   );
 };
 
-export default Layout;
+export default SecondLayout;
