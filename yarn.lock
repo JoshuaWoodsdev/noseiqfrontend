@@ -1241,6 +1241,16 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/open-sauce-sans@^5.0.7":
+  version "5.0.7"
+  resolved "https://registry.npmjs.org/@fontsource/open-sauce-sans/-/open-sauce-sans-5.0.7.tgz"
+  integrity sha512-re8vz8Nyp6ldfTgYFNgVz835QfGmFc/InwCrcl0nUS9soRtS/PTA2WhxAmb+b10SmP/JHwHsGBLLCAHENgxjEg==
+
+"@fontsource/plus-jakarta-sans@^5.0.18":
+  version "5.0.18"
+  resolved "https://registry.npmjs.org/@fontsource/plus-jakarta-sans/-/plus-jakarta-sans-5.0.18.tgz"
+  integrity sha512-poMuIcQ8F7WGXF4mNUviDk49Ewdf0pU7wmCzWQNbWEtus+L46BSp+4OqbWy0LWJEmMLI9F5hUHaSo2maLJwrQw==
+
 "@gatsbyjs/parcel-namer-relative-to-cwd@^2.13.0":
   version "2.13.0"
   resolved "https://registry.npmjs.org/@gatsbyjs/parcel-namer-relative-to-cwd/-/parcel-namer-relative-to-cwd-2.13.0.tgz"
