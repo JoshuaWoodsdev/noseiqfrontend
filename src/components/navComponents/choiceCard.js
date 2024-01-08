@@ -1,5 +1,6 @@
 import React from "react"
 import styled from 'styled-components';
+import { SignInButton } from "gatsby-plugin-clerk";
 
 const ArticleContainer = styled.article`
   max-width: 30rem;
@@ -65,10 +66,9 @@ return(
 <ArticleContainer>
     <Title>A marketplace for perfumers and brands. </Title>
     <Subtitle>Get started with us as a perfumer, brand or retailer.</Subtitle>
-    <Description>Sign up for beta access or learn more about x.</Description>
+    <Description>Sign up for beta access or learn more about us.</Description>
     <ButtonGroup>
-        <Button href="#">Sign In</Button>
-        <Button href="#">Sign Up</Button>
+        <SignInButton/>
     </ButtonGroup>
 </ArticleContainer>
 )};

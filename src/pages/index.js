@@ -17,8 +17,6 @@ const CardHolder = styled.div`
 
 const IndexPage = () => (
   <Layout>
-     <CardHolder>
-      </CardHolder>
     <ChoiceComponent/>
   </Layout>
 );

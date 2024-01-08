@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import styled from 'styled-components';
-import StyledArticle from "./navComponents/navCard";
+
 
 const StyledNavBar = styled.nav`
   display: flex;

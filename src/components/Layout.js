@@ -16,6 +16,7 @@ import '@fontsource/open-sauce-sans/600.css';
 import '@fontsource/open-sauce-sans/700.css';
 import '@fontsource/open-sauce-sans/800.css';
 import '@fontsource/open-sauce-sans/900.css';
+import Footer from "./navComponents/footer";
 
 
 const Layout = ({ children }) => {
@@ -23,6 +24,7 @@ const Layout = ({ children }) => {
     <div>
       <NavBar />
       <main>{children}</main>
+      <Footer/>
     </div>
   );
 };
