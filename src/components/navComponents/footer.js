@@ -5,7 +5,6 @@ import styled from 'styled-components';
 
 const StyledFooter = styled.footer`
   padding: 2rem 1rem;
-  border-top: 1px solid #000;
   color: #444;
 `;
 
